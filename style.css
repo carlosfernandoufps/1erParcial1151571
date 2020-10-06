@@ -32,21 +32,22 @@
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
-    border-right: 1px solid white;
+    border-right: 2px solid white;
 }
 #menu_li:last-child{
     border-right: 0;
 }
 #enlace_header{
     color: white;
+    font-weight: bold;
 }
 
 /* divs */
-
 #div_primero{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 #div_boton{
     border-radius: 5px;
@@ -65,13 +66,100 @@
 #div_primero_texto{
     padding: 0 20px;
 }
+#div_texto_imagen{
+    background-color: rgb(145, 152, 236);
+}
+#div_primeroimagen img{
+    width: 100%;
+}
 #div_primero_parrafo{
     font-size: 22px;
     text-align: justify;
     padding-bottom: 20px;
 }
+#div_primeroimagen{
+    width: 100%;
+}
+#div_primero_parrafo{
+    font-weight: bold;
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    width: 100%;
+}
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    background: rgb(66, 0, 128);
+    width: 95%;
+}
+#cuadrologo{
+    display: flex;
+    align-items: center;
+}
+#imagenlogo{
+    width: 220px;
+}
+#titulologo{
+    font-size: 80px;
+}
+#menu_lista{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#menu_li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid white;
+}
+#menu_li:last-child{
+    border-right: 0;
+}
+#enlace_header{
+    color: white;
+    font-weight: bold;
+}
+
+/* divs */
+#div_primero{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    width: 95%;
+    margin: 0 auto;
+}
+#div_boton{
+    border-radius: 5px;
+    color: white;
+    padding: 7px 22px;
+    margin-top: 40px;
+    background: rgb(17, 48, 105);
+}
+#div_boton:hover{
+    background-color: black;
+}
+#div_primero_titulo{
+    padding: 0 20px;
+    font-size: 35px;
+}
+#div_primero_texto{
+    padding: 0 20px;
+}
+#div_texto_imagen{
+    background-color: rgb(145, 152, 236);
+}
 #div_primeroimagen img{
     width: 100%;
+}
+#div_primero_parrafo{
+    font-size: 22px;
+    text-align: justify;
+    padding-bottom: 20px;
 }
 #div_primeroimagen{
     width: 100%;
